@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,300&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #8f8f8f;
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+/* HEADING SECTION */
+
+.welcome {
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.section-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CONTAINERS */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.color-sec{
+    background-color: #e84a5f;
+    color: white;
+}
+
+.white-sec{
+    background-color: white;
+}
+
+/* NAV BAR STYLING */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    right: 30%;
+}
+
+
+/* FEATURES */
+
+
+#features {
+    position: relative;
+}
+
+.col-lg-4{
+    padding-left: 5rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feat-icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.feat-icon:hover{
+    color: #e84a5f;
+}
+
+.feat-title{
+    font-size: 1.5rem;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.test-img{
+   width: 17%;
+   border-radius: 100%;
+   margin: 2% 3%;
+}
+
+.test-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* PRESS */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 7%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* PRICING */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
+
+
+/* CALL TO ACTION */
+
+
+/* FOOTER */
+
+.footer-app{
+    margin: 20px 10px;
+}
+
+
+/* CHANGE TO MOBILE */
+
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
